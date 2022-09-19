@@ -1,0 +1,22 @@
+body {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+h1.h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
+/* HEADER */
+
+.navbar {
+    background-color: #0B0C10;
+    color: #66FCF1!important;
+}
+a {
+    color: #66FCF1;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
