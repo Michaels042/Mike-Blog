@@ -4,19 +4,84 @@ body {
 
 h1.h2,h3,h4,h5 {
     font-weight: 700;
-}
+    color: #66FCF1;
 
+}
+h3 {
+    font-size: 1.5rem;
+}
+a {
+    color: #66FCF1;
+}
+input {
+    background-color: #0B0C10!important;
+    color: #66FCF1!important;
+}
+img {
+    filter: grayscale(50%) brightness(0.8);
+}
+img.rounded-circle {
+    filter: none;
+    border: 2px solid #66FCF1
+
+}
 /* HEADER */
 
 .navbar {
     background-color: #0B0C10;
     color: #66FCF1!important;
 }
-a {
-    color: #66FCF1;
-}
 
 .navbar-brand {
     font-weight: 700;
     font-size: 1.5rem;
+}
+
+.btn-main {
+    background-color: #66FCF1!important;
+    color: #0B0C10!important;
+}
+
+/* HERO */
+.hero {
+    background-color: #1F2833;
+}
+.hero-post {
+    position: relative;
+}
+
+.hero-post-badges {
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+.hero-post-badges>a {
+    display: block;
+    background-color: #0B0C10;
+    color: #66FCF1!important;
+    font-size: 0.8rem;
+}
+
+.hero-post-content {
+    position: absolute;
+    bottom: 10px;
+    color: #66FCF1!important;
+}
+
+ /* MAIN BLOG */
+.blog-posts {
+    background-color: #0B0C10;
+    color: #C5C6C7;
+}
+.blog-post {
+    background-color:#1F2833;
+}
+
+.blog-post>p {
+    font-size: 0.6rem;
+}
+
+.blog-post .col-sm-8{
+    border-left: 3px solid #66FCF1;
 }
