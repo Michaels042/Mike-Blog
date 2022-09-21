@@ -152,3 +152,7 @@ img.rounded-circle {
 .footer a {
   color: #66fcf1 !important;
 }
+.footer a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
